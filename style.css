@@ -3,43 +3,43 @@
 SEARCH
 =================================================
 */
-form{
-    width:100%;
-    max-width:600px;
-    margin:0 auto;
-    color: #ccdbff;
- }
- input{
-    width:100%;
-    font-size:32px;
-    margin:5px 0;
-    float:left;
-    border:none;
-    padding:10px;
-    outline:none;
- }
- .search-bar{
-    width:85%;
-    text-align: center;
-    color: #487af7;
- }
- .submit-button{
-    width:15%;
-    background:#292887;
-    color:#ccdbff;
- }
- 
+ form{
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width:100%;
+   font-size:32px;
+   margin:5px 0;
+   border:none;
+   padding:10px;
+   outline:none;
+   display:inline-block;
+}
+.search-bar{
+   width:80%;
+   color: #487af7;
+   text-align: center;
+}
+.submit-button{
+   width:15%;
+   background:#282887;
+   color:#ccdbff;
+}
+
 /*
- =================================================
+=================================================
 BOOKMARKS
 =================================================
 */
 .bookmarks{
    padding:30px;
    clear:both;
+   text-align: center;
 }
 .bookmarks i{
-   font-size:42px;
+   font-size:35px;
    margin:0 20px;
    color:#f6bbe8;
    transition:.15s;
@@ -69,6 +69,19 @@ POST-IT NOTE (IN CSS)
    font-family:sans-serif;
   }
 
+/*
+=================================================
+CLOCK
+=================================================
+*/
+ 
+div{ 
+   text-align:center;
+   padding-top: 800px;
+   font-size: 23px;
+   color: #f28edb;
+}
+
   @media only screen and (max-width: 900px) {
    h1{
        margin-top:50px;
@@ -90,6 +103,14 @@ POST-IT NOTE (IN CSS)
    html{
       background-color: #dfe6f8;
    }
- 
   
+   .head1{
+      font-size: 50px;
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      color: #ff9be8;
+      text-align: center;
+   }
  
