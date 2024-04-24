@@ -20,7 +20,7 @@ input{
 .search-bar{
    width:80%;
    color: #487af7;
-   text-align: center;
+   text-align: left;
 }
 .submit-button{
    width:15%;
@@ -33,6 +33,9 @@ input{
 BOOKMARKS
 =================================================
 */
+.bookmarks a{
+   text-decoration: none;
+}
 .bookmarks{
    padding:30px;
    clear:both;
@@ -77,8 +80,9 @@ CLOCK
  
 div{ 
    text-align:center;
-   padding-top: 800px;
-   font-size: 23px;
+   padding-top: 725px;
+   font-size: 35px;
+   font-family: "Playfair Display", serif;
    color: #f28edb;
 }
 
@@ -108,9 +112,7 @@ div{
       font-size: 50px;
       font-family: "Playfair Display", serif;
       font-optical-sizing: auto;
-      font-weight: <weight>;
-      font-style: normal;
-      color: #ff9be8;
+      color: #f6bbe8;
       text-align: center;
    }
  
