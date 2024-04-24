@@ -80,10 +80,10 @@ CLOCK
  
 div{ 
    text-align:center;
-   padding-top: 725px;
-   font-size: 35px;
+   padding-top: 40px;
+   font-size: 45px;
    font-family: "Playfair Display", serif;
-   color: #f28edb;
+   color: #f6bbe8;
 }
 
   @media only screen and (max-width: 900px) {
